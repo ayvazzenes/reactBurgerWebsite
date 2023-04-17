@@ -1,0 +1,43 @@
+:root{
+    --bg-primary: #c5211c;
+    --text-primary: #f7ba79;
+    --hover-color: #ddd;
+}
+
+.home-pages div{
+    position: relative;
+    background: url(../img/banneryeni.jpg);
+    height: calc(100vh - 96px);
+   
+    background-size: cover;
+    width: 100%;
+    
+    
+    
+}
+.home-pages div img{
+    
+    width: 100%;
+    
+    
+}
+
+.button{
+    position: absolute;
+    bottom: 2rem;
+    left: 2rem;
+    background: var(--bg-primary);
+    padding: 0.6rem 1.2rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: var(--hover-color);
+    cursor: pointer;
+    border: none;
+    border-radius: 2rem;
+   
+}
+.button:hover{
+    background: var(--text-primary);
+    color: var(--bg-primary);
+    transition: 0.3s ease;
+}

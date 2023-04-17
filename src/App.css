@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+    overflow-x: hidden;
+}
+.all-pages{
+    margin-top: 96px;
+}
+
+:root{
+    --bg-primary: #c5211c;
+    --text-primary: #f7ba79;
+    --hover-color: #ddd;
+}
+
+
+
+

@@ -1,0 +1,55 @@
+:root{
+    --bg-primary: #c5211c;
+    --text-primary: #f7ba79;
+    --hover-color: #ddd;
+}
+
+.mainNav{
+    
+    
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background: var(--bg-primary);
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+    height: 6rem;
+    padding: 0.5rem 1rem;
+    z-index: 999;
+    
+}
+.mainNav .burger-logo{
+    height: 100%;
+    width: 11rem;
+    overflow: hidden;
+    
+}
+.mainNav .burger-logo-img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    
+}
+.mainNav .burger-navbar{
+    display: flex;
+    column-gap: 1rem;
+    
+}
+.mainNav .burger-navbar a {
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: var(--text-primary);
+    font-weight: 500;
+    
+}
+.mainNav .burger-navbar a:hover{
+    color: var(--hover-color);
+    transition: 0.3s ease;
+}
+.mainNav .burger-navbar a.active{
+    color: var(--hover-color);
+    
+    
+}
